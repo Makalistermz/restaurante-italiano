@@ -24,7 +24,7 @@
     transform: translateX(-50%);
 
     padding-top: 20px;
-    gap: 20px;
+    gap: 30px;
 }
 
 .container-header a {
@@ -81,4 +81,70 @@
     width: 100%;
     height: 1100px;
     background-attachment: fixed;
+}
+
+main {
+    background-color: #F2DDD0;
+}
+
+.container-cardapio {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.title-cardapio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 15px;
+    margin: 40px 0px;
+}
+
+.title-cardapio span {
+    flex: 1;
+    height: 2px;
+    margin-top: 30px;
+    background:black;
+}
+
+.h1-cardapio {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    white-space:nowrap;
+}
+
+.mini-cardapio {
+    display: flex;
+}
+
+.cardapio {
+    width: 150px;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.cardapio:active {
+    background-image:
+linear-gradient(rgba(189,105,105,0.6), rgba(189, 105, 105, 0.6)),
+url("img/background-red.png");
+
+background-size: cover;
+background-position: center;
+}
+
+#todas-esq {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#sobremesas-dir {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
