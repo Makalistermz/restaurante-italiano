@@ -9,6 +9,7 @@
     --fonteelegante: 'Playfair Display', serif;
     --fontecursiva: 'Great Vibes', cursive;
     --fontemoderna: 'Montserrat', sans-serif;
+    --cor1: rgb(139, 0, 0);
 }
 
 .header {
@@ -67,7 +68,7 @@
     cursor: pointer;
     border-radius: 60px;
     border: none;
-    background-color: rgb(139, 0, 0);
+    background-color: var(--cor1);
     font-size: 20px;
     font-weight: bold;
 }
