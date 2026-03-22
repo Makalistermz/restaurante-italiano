@@ -41,15 +41,15 @@
                 <span></span>
             </div>
             <div class="mini-cardapio">
-                <span class="cardapio" id="entradas-esq">Entradas</span>
-                <span class="cardapio">Pizza</span>
-                <span class="cardapio">Massas</span>
-                <span class="cardapio" id="sobremesas-dir">Sobremesas</span>
+                <span class="cardapio" id="entradas-esq" onclick="entrada()">Entradas</span>
+                <span class="cardapio" onclick="pizza()">Pizza</span>
+                <span class="cardapio" massa()>Massas</span>
+                <span class="cardapio" id="sobremesas-dir" onclick="sobremesa()">Sobremesas</span>
             </div>
         </div>
 
         <div class="container-food">
-            <div class="entradas">
+            <div class="entradas" id="entrada">
                 <div class="comida-entrada">
                     <img src="img/entrada-1.jpg" alt="Bruschetta Italiana">
                     <h3 class="titulo-comida">Bruschetta Italiana</h3>
@@ -95,7 +95,7 @@
                 </div>
             </div>
 
-            <div class="entradas">
+            <div class="entradas" id="pasta">
                 <div class="comida-entrada">
                     <img src="img/pasta-2.jpg" alt="Bruschetta Italiana">
                     <h3 class="titulo-comida">Spaghetti Pomodoro</h3>
@@ -141,7 +141,7 @@
                 </div>
             </div>
 
-            <div class="entradas">
+            <div class="entradas" id="pizza">
                 <div class="comida-entrada">
                     <img src="img/pizza.jpg" alt="Bruschetta Italiana">
                     <h3 class="titulo-comida">Pizza Margherita</h3>
@@ -176,7 +176,7 @@
                 </div>
             </div>
 
-            <div class="entradas">
+            <div class="entradas" id="sobremesa">
                 <div class="comida-entrada">
                     <img src="img/sobremesa-1.jpg" alt="Bruschetta Italiana">
                     <h3 class="titulo-comida">Petit Gateau</h3>
@@ -223,5 +223,7 @@
             </div>
         </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
