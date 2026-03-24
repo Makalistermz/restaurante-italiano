@@ -5,6 +5,10 @@ let sobremesas = document.querySelector('#sobremesa');
 
 let cardapio = document.querySelectorAll('.cardapio');
 
+    pizzas.style.display = 'none';
+    pastas.style.display = 'none';
+    sobremesas.style.display = 'none';
+
 function entrada() {
     pizzas.style.display = 'none';
     pastas.style.display = 'none';
@@ -12,7 +16,11 @@ function entrada() {
 
     entradas.style.display = 'flex';
 
-    cardapio.style = 'background-image linear-gradient(rgba(189,105,105,0.6), rgba(189, 105, 105, 0.6)), url("img/background-red.png")';
+    for (let i = 0; i < cardapio.length; i++) {
+        cardapio[i].style.backgroundImage = '';
+    }
+
+    cardapio[0].style.backgroundImage = 'linear-gradient(rgba(189,105,105,0.6), rgba(189, 105, 105, 0.6)), url("img/background-red.png")';
 }
 
 function pizza() {
@@ -21,6 +29,12 @@ function pizza() {
     sobremesas.style.display = 'none';
 
     pizzas.style.display = 'flex';
+
+    for (let i = 0; i < cardapio.length; i++) {
+    cardapio[i].style.backgroundImage = '';
+    }
+
+    cardapio[1].style.backgroundImage = 'linear-gradient(rgba(189,105,105,0.6), rgba(189, 105, 105, 0.6)), url("img/background-red.png")';
 }
 
 function massa() {
@@ -29,6 +43,12 @@ function massa() {
     sobremesas.style.display = 'none';
 
     pastas.style.display = 'flex';
+
+    for (let i = 0; i < cardapio.length; i++) {
+    cardapio[i].style.backgroundImage = '';
+    }
+
+    cardapio[2].style.backgroundImage = 'linear-gradient(rgba(189,105,105,0.6), rgba(189, 105, 105, 0.6)), url("img/background-red.png")';
 }
 
 function sobremesa() {
@@ -37,4 +57,10 @@ function sobremesa() {
     pizzas.style.display = 'none';
 
     sobremesas.style.display = 'flex';
+
+    for (let i = 0; i < cardapio.length; i++) {
+    cardapio[i].style.backgroundImage = '';
+    }
+
+    cardapio[3].style.backgroundImage = 'linear-gradient(rgba(189,105,105,0.6), rgba(189, 105, 105, 0.6)), url("img/background-red.png")';
 }
