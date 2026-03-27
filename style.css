@@ -271,3 +271,28 @@ background-position: center;
     width: 800px;
     height: 500px;
 }
+
+.localizacoes {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.contato-localizacao {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.contato {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.contato img {
+    width: 50px;
+    height: 40px;
+}
+
+.rua img {
+    
+}
