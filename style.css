@@ -232,7 +232,7 @@ background-position: center;
 }
 
 .sobre {
-    width: 500px;
+    width: auto;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -259,6 +259,7 @@ background-position: center;
 .sobre p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1em;
+    width: 460px;
 }
 
 .sobre img {
