@@ -276,6 +276,7 @@ background-position: center;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: space-around;
 }
 
 .contato-localizacao {
@@ -293,6 +294,12 @@ background-position: center;
     height: 40px;
 }
 
+.rua {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
 .rua img {
-    
+    width: 50px;
+    height: 40px;
 }
