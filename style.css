@@ -236,7 +236,7 @@ background-position: center;
     color: white;
 }
 
-.sobre {
+.sobre-nos {
     width: auto;
     display: flex;
     flex-flow: column nowrap;
@@ -244,14 +244,14 @@ background-position: center;
     margin-top: 140px;
 }
 
-.sobre h1 {
+.sobre-nos h1 {
     font-family: var(--fontecursiva);
     font-size: 6em;
     text-align: center;
     margin-bottom: 5px;
 }
 
-.sobre h2 {
+.sobre-nos h2 {
     width: 300px;
 
     border-bottom: 1px solid white;
@@ -261,13 +261,13 @@ background-position: center;
     margin-bottom: 20px;
 }
 
-.sobre p {
+.sobre-nos p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1em;
     width: 460px;
 }
 
-.sobre img {
+.sobre-nos img {
     width: 500px;
     height: 250px;
 }
@@ -281,7 +281,7 @@ background-position: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    height: 500px;
+    height: 600px;
 
     background-image: url(img/background-bronw.png);
     background-repeat: no-repeat;
