@@ -130,6 +130,10 @@ main {
     cursor: pointer;
 }
 
+.cardapio:hover {
+    background-image: linear-gradient(rgba(189,105,105,0.6), rgba(189, 105, 105, 0.6)), url("img/background-red.png");
+}
+
 .cardapio:active {
     background-image: linear-gradient(rgba(189,105,105,0.6), rgba(189, 105, 105, 0.6)), url("img/background-red.png");
 
@@ -276,7 +280,6 @@ background-position: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
     height: 500px;
 
     background-image: url(img/background-bronw.png);
@@ -293,11 +296,13 @@ background-position: center;
 
 .contato-localizacao h2 {
     font-size: 2em;
+    margin: 80px 0px 30px 40px;
 }
 
 .pedido-p {
     font-size: 1.7em;
     margin-bottom: 40px;
+    margin-left: 40px;
 }
 
 .contato {
@@ -333,7 +338,7 @@ background-position: center;
 .localizacao {
     border-left: 1px solid white;
     height: 400px;
-    margin-left:80px;
+    margin: 70px 0px 0px 80px;
     padding-left: 50px;
 }
 
@@ -344,6 +349,6 @@ background-position: center;
 
 .localizacao img {
     width: 700px;
-    height: 360px;
+    height: 340px;
     border-radius: 30px;
 }
