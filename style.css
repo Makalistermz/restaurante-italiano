@@ -288,6 +288,16 @@ background-position: center;
 .contato-localizacao {
     display: flex;
     flex-flow: column nowrap;
+    width: 700px;
+}
+
+.contato-localizacao h2 {
+    font-size: 2em;
+}
+
+.pedido-p {
+    font-size: 1.7em;
+    margin-bottom: 40px;
 }
 
 .contato {
@@ -296,8 +306,13 @@ background-position: center;
 }
 
 .contato img {
-    width: 50px;
-    height: 40px;
+    width: 100px;
+    height: 80px;
+}
+
+.contato p {
+    margin-top: 20px;
+    font-size: 1.6em;
 }
 
 .rua {
@@ -305,14 +320,30 @@ background-position: center;
     flex-flow: row nowrap;
 }
 
+.rua p {
+    margin-top: 20px;
+    font-size: 1.6em;
+}
+
 .rua img {
-    width: 50px;
-    height: 40px;
+    width: 100px;
+    height: 80px;
 }
 
 .localizacao {
     border-left: 1px solid white;
     height: 400px;
     margin-left:80px;
-    padding-left: 30px;
+    padding-left: 50px;
+}
+
+.localizacao h2 {
+    font-size: 2em;
+    padding-bottom: 18px;
+}
+
+.localizacao img {
+    width: 700px;
+    height: 360px;
+    border-radius: 30px;
 }
