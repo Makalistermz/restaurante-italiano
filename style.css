@@ -166,7 +166,8 @@ background-position: center;
 .comida-entrada {
     width: 250px;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    justify-content: space-between;
 
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -375,15 +376,15 @@ footer p {
 }
 
 .simbolos {
-    margin: -30px;
+    display: flex;
 }
 
-.simbolos:hover {
+.simbolos img:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 3px 3px black;
 }
 
 .simbolos img {
-    width: 110px;
-    height: 90px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
 }
