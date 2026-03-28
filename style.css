@@ -275,8 +275,14 @@ background-position: center;
 .localizacoes {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    height: 500px;
+
+    background-image: url(img/background-bronw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .contato-localizacao {
@@ -302,4 +308,11 @@ background-position: center;
 .rua img {
     width: 50px;
     height: 40px;
+}
+
+.localizacao {
+    border-left: 1px solid white;
+    height: 400px;
+    margin-left:80px;
+    padding-left: 30px;
 }
